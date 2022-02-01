@@ -2,11 +2,11 @@
 
 return [
     'location' => [
-        'no_location_found' => 'Could not locate a record matching the provided short code.',
-        'ask_short' => 'Location Short Code',
-        'ask_long' => 'Location Description',
-        'created' => 'Successfully created a new location (:name) with an ID of :id.',
-        'deleted' => 'Successfully deleted the requested location.',
+        'no_location_found' => 'Не удалось найти запись, соответствующую указанному короткому номеру.',
+        'ask_short' => 'Короткий код локации',
+        'ask_long' => 'Описание локации',
+        'created' => 'Успешно создано новую локацию (:name) с идентификатором :id.',
+        'deleted' => 'Успешное удаление локации.',
     ],
     'user' => [
         'search_users' => 'Enter a Username, User ID, or Email Address',

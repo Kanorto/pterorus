@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'daemon_connection_failed' => 'There was an exception while attempting to communicate with the daemon resulting in a HTTP/:code response code. This exception has been logged.',
+    'daemon_connection_failed' => 'Возникла исключительная ситуация при попытке связаться с демоном, что привело к коду ответа HTTP/:code. Это исключение было зарегистрировано.',
     'node' => [
-        'servers_attached' => 'A node must have no servers linked to it in order to be deleted.',
-        'daemon_off_config_updated' => 'The daemon configuration <strong>has been updated</strong>, however there was an error encountered while attempting to automatically update the configuration file on the Daemon. You will need to manually update the configuration file (config.yml) for the daemon to apply these changes.',
+        'servers_attached' => 'Узел не должен иметь связанных с ним серверов, чтобы его можно было удалить.',
+        'daemon_off_config_updated' => 'Конфигурация демона <strong>обновлена</strong>, однако при попытке автоматического обновления файла конфигурации на демоне произошла ошибка. Вам нужно будет вручную обновить файл конфигурации (config.yml), чтобы демон применил эти изменения.',
     ],
     'allocations' => [
         'server_using' => 'A server is currently assigned to this allocation. An allocation can only be deleted if no server is currently assigned.',
@@ -33,27 +33,27 @@ return [
         ],
     ],
     'subusers' => [
-        'editing_self' => 'Editing your own subuser account is not permitted.',
-        'user_is_owner' => 'You cannot add the server owner as a subuser for this server.',
-        'subuser_exists' => 'A user with that email address is already assigned as a subuser for this server.',
+        'editing_self' => 'Редактирование собственной учетной записи субпользователя не разрешено.',
+        'user_is_owner' => 'Вы не можете добавить владельца сервера в качестве субпользователя для этого сервера.',
+        'subuser_exists' => 'Пользователь с таким адресом электронной почты уже назначен субпользователем для этого сервера.',
     ],
     'databases' => [
-        'delete_has_databases' => 'Cannot delete a database host server that has active databases linked to it.',
+        'delete_has_databases' => 'Невозможно удалить хост-сервер баз данных, с которым связаны активные базы данных.',
     ],
     'tasks' => [
-        'chain_interval_too_long' => 'The maximum interval time for a chained task is 15 minutes.',
+        'chain_interval_too_long' => 'Максимальное время интервала для связанной задачи составляет 15 минут.',
     ],
     'locations' => [
-        'has_nodes' => 'Cannot delete a location that has active nodes attached to it.',
+        'has_nodes' => 'Невозможно удалить местоположение, к которому подключены активные узлы.',
     ],
     'users' => [
         'node_revocation_failed' => 'Failed to revoke keys on <a href=":link">Node #:node</a>. :error',
     ],
     'deployment' => [
-        'no_viable_nodes' => 'No nodes satisfying the requirements specified for automatic deployment could be found.',
-        'no_viable_allocations' => 'No allocations satisfying the requirements for automatic deployment were found.',
+        'no_viable_nodes' => 'Не удалось найти узлы, удовлетворяющие требованиям, указанным для автоматического развертывания.',
+        'no_viable_allocations' => 'Выделения, удовлетворяющие требованиям автоматического развертывания, не найдены.',
     ],
     'api' => [
-        'resource_not_found' => 'The requested resource does not exist on this server.',
+        'resource_not_found' => 'Запрашиваемого ресурса нету на сервере',
     ],
 ];
