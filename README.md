@@ -1,0 +1,2 @@
+# pterorus
+Pterodactyl panel rusificator
